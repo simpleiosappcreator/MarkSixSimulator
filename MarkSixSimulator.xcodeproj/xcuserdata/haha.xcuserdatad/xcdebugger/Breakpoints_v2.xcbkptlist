@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1C42CDC-314C-402B-B4D8-96348A928485"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SearchAndMatchSheetView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - 2be728ddbde31874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of MarkSixSimulator.SearchAndMatchSheetView.firstPrizeArray : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - 9ad1c6d9cb055d14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarkSixSimulator.SearchAndMatchSheetView.firstPrizeArray.getter : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - 69d82c687babb528"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarkSixSimulator.SearchAndMatchSheetView.firstPrizeArray.setter : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - a2cdfc044057e525"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarkSixSimulator.SearchAndMatchSheetView.firstPrizeArray.modify : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - 73d58628afeae82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarkSixSimulator.SearchAndMatchSheetView.firstPrizeArray.modify : Swift.Array&lt;Swift.Int&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - fed2bec2e280e88d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarkSixSimulator.SearchAndMatchSheetView.$firstPrizeArray.getter : SwiftUI.Binding&lt;Swift.Array&lt;Swift.Int&gt;&gt;"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "0B7D5916-57AC-4A31-A8D6-AF2BB6338A00 - 525b7647c5b1c7e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MarkSixSimulator.SearchAndMatchSheetView.init() -&gt; MarkSixSimulator.SearchAndMatchSheetView"
+                  moduleName = "MarkSixSimulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haha/Desktop/XCode/MarkSixSimulator/MarkSixSimulator/Views/Collection/SearchAndMatchSheetView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "479">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B613A3426A5F29C00013B0E /* YourLuckyNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B613A3326A5F29C00013B0E /* YourLuckyNumbersView.swift */; };
+		1B63890326A9B8A10028DB6B /* LaunchScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B63890226A9B8A10028DB6B /* LaunchScreenView.storyboard */; };
+		1B642EFF26A71EA3005EF607 /* CreateUserChoiceBallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B642EFE26A71EA3005EF607 /* CreateUserChoiceBallsView.swift */; };
+		1B642F0126A72D29005EF607 /* SaveSuccessfullyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B642F0026A72D29005EF607 /* SaveSuccessfullyView.swift */; };
+		1B647F5426A471A700B77DE5 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B647F5326A471A700B77DE5 /* HomePageView.swift */; };
+		1B647F5626A4741E00B77DE5 /* CreateBallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B647F5526A4741E00B77DE5 /* CreateBallsView.swift */; };
+		1B647F5A26A47CEF00B77DE5 /* NumbersGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B647F5926A47CEF00B77DE5 /* NumbersGeneratorView.swift */; };
+		1B647F5C26A4844200B77DE5 /* OtherPageButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B647F5B26A4844200B77DE5 /* OtherPageButtonsView.swift */; };
+		1B647F5E26A49E5100B77DE5 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B647F5D26A49E5100B77DE5 /* CollectionView.swift */; };
+		1B77541126A83ED200973709 /* SearchAndMatchSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B77541026A83ED200973709 /* SearchAndMatchSheetView.swift */; };
+		1B77541A26A87B9D00973709 /* PrizeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B77541926A87B9C00973709 /* PrizeAreaView.swift */; };
+		1B77541D26A87C4F00973709 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B77541C26A87C4F00973709 /* CollectionExtension.swift */; };
+		1B93A1E226A33C6B0030B396 /* MarkSixSimulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93A1E126A33C6B0030B396 /* MarkSixSimulatorApp.swift */; };
+		1B93A1E626A33C6D0030B396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B93A1E526A33C6D0030B396 /* Assets.xcassets */; };
+		1B93A1E926A33C6D0030B396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B93A1E826A33C6D0030B396 /* Preview Assets.xcassets */; };
+		1B93A1F426A33CCC0030B396 /* OpenAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93A1F326A33CCC0030B396 /* OpenAppView.swift */; };
+		1B93A1F626A33CF30030B396 /* NumberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93A1F526A33CF30030B396 /* NumberModel.swift */; };
+		1B93A1F926A33D7C0030B396 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93A1F826A33D7C0030B396 /* TempViewModel.swift */; };
+		1B93A1FE26A359E90030B396 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93A1FD26A359E90030B396 /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B613A3326A5F29C00013B0E /* YourLuckyNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourLuckyNumbersView.swift; sourceTree = "<group>"; };
+		1B63890226A9B8A10028DB6B /* LaunchScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenView.storyboard; sourceTree = "<group>"; };
+		1B642EFE26A71EA3005EF607 /* CreateUserChoiceBallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserChoiceBallsView.swift; sourceTree = "<group>"; };
+		1B642F0026A72D29005EF607 /* SaveSuccessfullyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSuccessfullyView.swift; sourceTree = "<group>"; };
+		1B647F5326A471A700B77DE5 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		1B647F5526A4741E00B77DE5 /* CreateBallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBallsView.swift; sourceTree = "<group>"; };
+		1B647F5926A47CEF00B77DE5 /* NumbersGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersGeneratorView.swift; sourceTree = "<group>"; };
+		1B647F5B26A4844200B77DE5 /* OtherPageButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPageButtonsView.swift; sourceTree = "<group>"; };
+		1B647F5D26A49E5100B77DE5 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		1B77541026A83ED200973709 /* SearchAndMatchSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndMatchSheetView.swift; sourceTree = "<group>"; };
+		1B77541926A87B9C00973709 /* PrizeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeAreaView.swift; sourceTree = "<group>"; };
+		1B77541C26A87C4F00973709 /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
+		1B93A1DE26A33C6B0030B396 /* MarkSixSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkSixSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B93A1E126A33C6B0030B396 /* MarkSixSimulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkSixSimulatorApp.swift; sourceTree = "<group>"; };
+		1B93A1E526A33C6D0030B396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B93A1E826A33C6D0030B396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B93A1EA26A33C6D0030B396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B93A1F326A33CCC0030B396 /* OpenAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppView.swift; sourceTree = "<group>"; };
+		1B93A1F526A33CF30030B396 /* NumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberModel.swift; sourceTree = "<group>"; };
+		1B93A1F826A33D7C0030B396 /* TempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewModel.swift; sourceTree = "<group>"; };
+		1B93A1FD26A359E90030B396 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B93A1DB26A33C6B0030B396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B77540A26A83C1400973709 /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+				1B647F5326A471A700B77DE5 /* HomePageView.swift */,
+				1B647F5B26A4844200B77DE5 /* OtherPageButtonsView.swift */,
+			);
+			path = HomePageView;
+			sourceTree = "<group>";
+		};
+		1B77540B26A83C4800973709 /* YourLuckyNumbersView */ = {
+			isa = PBXGroup;
+			children = (
+				1B613A3326A5F29C00013B0E /* YourLuckyNumbersView.swift */,
+				1B642EFE26A71EA3005EF607 /* CreateUserChoiceBallsView.swift */,
+			);
+			path = YourLuckyNumbersView;
+			sourceTree = "<group>";
+		};
+		1B77540C26A83C9500973709 /* OpenAppView */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1F326A33CCC0030B396 /* OpenAppView.swift */,
+			);
+			path = OpenAppView;
+			sourceTree = "<group>";
+		};
+		1B77540E26A83CAC00973709 /* NumbersGeneratorView */ = {
+			isa = PBXGroup;
+			children = (
+				1B647F5926A47CEF00B77DE5 /* NumbersGeneratorView.swift */,
+			);
+			path = NumbersGeneratorView;
+			sourceTree = "<group>";
+		};
+		1B77540F26A83CC900973709 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				1B647F5D26A49E5100B77DE5 /* CollectionView.swift */,
+				1B77541026A83ED200973709 /* SearchAndMatchSheetView.swift */,
+				1B77541926A87B9C00973709 /* PrizeAreaView.swift */,
+				1B77541B26A87C3500973709 /* Extension */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		1B77541B26A87C3500973709 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B77541C26A87C4F00973709 /* CollectionExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1B93A1D526A33C6B0030B396 = {
+			isa = PBXGroup;
+			children = (
+				1B93A1E026A33C6B0030B396 /* MarkSixSimulator */,
+				1B93A1DF26A33C6B0030B396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B93A1DF26A33C6B0030B396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1DE26A33C6B0030B396 /* MarkSixSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B93A1E026A33C6B0030B396 /* MarkSixSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1FC26A359DB0030B396 /* Extensions */,
+				1B93A1E126A33C6B0030B396 /* MarkSixSimulatorApp.swift */,
+				1B93A1F126A33C990030B396 /* ViewModels */,
+				1B93A1F026A33C860030B396 /* Models */,
+				1B93A1F226A33CB50030B396 /* Views */,
+				1B93A1E526A33C6D0030B396 /* Assets.xcassets */,
+				1B93A1EA26A33C6D0030B396 /* Info.plist */,
+				1B93A1E726A33C6D0030B396 /* Preview Content */,
+			);
+			path = MarkSixSimulator;
+			sourceTree = "<group>";
+		};
+		1B93A1E726A33C6D0030B396 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1E826A33C6D0030B396 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B93A1F026A33C860030B396 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1F526A33CF30030B396 /* NumberModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B93A1F126A33C990030B396 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1F826A33D7C0030B396 /* TempViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1B93A1F226A33CB50030B396 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B77540C26A83C9500973709 /* OpenAppView */,
+				1B77540A26A83C1400973709 /* HomePageView */,
+				1B77540E26A83CAC00973709 /* NumbersGeneratorView */,
+				1B77540B26A83C4800973709 /* YourLuckyNumbersView */,
+				1B77540F26A83CC900973709 /* Collection */,
+				1B647F5526A4741E00B77DE5 /* CreateBallsView.swift */,
+				1B642F0026A72D29005EF607 /* SaveSuccessfullyView.swift */,
+				1B63890226A9B8A10028DB6B /* LaunchScreenView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B93A1FC26A359DB0030B396 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B93A1FD26A359E90030B396 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B93A1DD26A33C6B0030B396 /* MarkSixSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B93A1ED26A33C6D0030B396 /* Build configuration list for PBXNativeTarget "MarkSixSimulator" */;
+			buildPhases = (
+				1B93A1DA26A33C6B0030B396 /* Sources */,
+				1B93A1DB26A33C6B0030B396 /* Frameworks */,
+				1B93A1DC26A33C6B0030B396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkSixSimulator;
+			productName = MarkSixSimulator;
+			productReference = 1B93A1DE26A33C6B0030B396 /* MarkSixSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B93A1D626A33C6B0030B396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1B93A1DD26A33C6B0030B396 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B93A1D926A33C6B0030B396 /* Build configuration list for PBXProject "MarkSixSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B93A1D526A33C6B0030B396;
+			productRefGroup = 1B93A1DF26A33C6B0030B396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B93A1DD26A33C6B0030B396 /* MarkSixSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B93A1DC26A33C6B0030B396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B93A1E926A33C6D0030B396 /* Preview Assets.xcassets in Resources */,
+				1B93A1E626A33C6D0030B396 /* Assets.xcassets in Resources */,
+				1B63890326A9B8A10028DB6B /* LaunchScreenView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B93A1DA26A33C6B0030B396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B93A1F926A33D7C0030B396 /* TempViewModel.swift in Sources */,
+				1B93A1F426A33CCC0030B396 /* OpenAppView.swift in Sources */,
+				1B77541126A83ED200973709 /* SearchAndMatchSheetView.swift in Sources */,
+				1B647F5A26A47CEF00B77DE5 /* NumbersGeneratorView.swift in Sources */,
+				1B642F0126A72D29005EF607 /* SaveSuccessfullyView.swift in Sources */,
+				1B93A1E226A33C6B0030B396 /* MarkSixSimulatorApp.swift in Sources */,
+				1B93A1F626A33CF30030B396 /* NumberModel.swift in Sources */,
+				1B642EFF26A71EA3005EF607 /* CreateUserChoiceBallsView.swift in Sources */,
+				1B613A3426A5F29C00013B0E /* YourLuckyNumbersView.swift in Sources */,
+				1B77541A26A87B9D00973709 /* PrizeAreaView.swift in Sources */,
+				1B647F5C26A4844200B77DE5 /* OtherPageButtonsView.swift in Sources */,
+				1B647F5626A4741E00B77DE5 /* CreateBallsView.swift in Sources */,
+				1B647F5426A471A700B77DE5 /* HomePageView.swift in Sources */,
+				1B77541D26A87C4F00973709 /* CollectionExtension.swift in Sources */,
+				1B647F5E26A49E5100B77DE5 /* CollectionView.swift in Sources */,
+				1B93A1FE26A359E90030B396 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B93A1EB26A33C6D0030B396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B93A1EC26A33C6D0030B396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B93A1EE26A33C6D0030B396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkSixSimulator/Preview Content\"";
+				DEVELOPMENT_TEAM = A35YRM969X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MarkSixSimulator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarkSixSimulator.MarkSixSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B93A1EF26A33C6D0030B396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkSixSimulator/Preview Content\"";
+				DEVELOPMENT_TEAM = A35YRM969X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MarkSixSimulator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MarkSixSimulator.MarkSixSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B93A1D926A33C6B0030B396 /* Build configuration list for PBXProject "MarkSixSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B93A1EB26A33C6D0030B396 /* Debug */,
+				1B93A1EC26A33C6D0030B396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B93A1ED26A33C6D0030B396 /* Build configuration list for PBXNativeTarget "MarkSixSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B93A1EE26A33C6D0030B396 /* Debug */,
+				1B93A1EF26A33C6D0030B396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B93A1D626A33C6B0030B396 /* Project object */;
+}
