@@ -11,7 +11,7 @@ struct YourLuckyNumbersView: View {
     @EnvironmentObject var tempVM: TempViewModel
     @State var tappedBallsCount: Int = 0
     @State var userChoices: [Int] = []
-    @State var isSaved: Bool = false
+//    @State var isSaved: Bool = false
     let column: [GridItem] = [
         GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())
     ]
@@ -53,7 +53,7 @@ struct YourLuckyNumbersView: View {
                             Button(action: {
                                 tempVM.handleUserChoiceOnYourLuckyNumbersPage(numbers: userChoices)
                                 
-                                isSaved = true
+//                                isSaved = true
                             }, label: {
                                 Text("Add to collection!")
                                     .font(.title3)
@@ -67,29 +67,29 @@ struct YourLuckyNumbersView: View {
                     }
                 }
                 
-                if isSaved{
-                    ZStack{
-                        SaveSuccessfullyView()
-                            .padding(.horizontal)
-                    }
-                    .zIndex(1.0)
-                    .onAppear {
-                        movementOfSaveSuccessfullyView()
-                    }
-                }
+//                if isSaved{
+//                    ZStack{
+//                        SaveSuccessfullyView()
+//                            .padding(.horizontal)
+//                    }
+//                    .zIndex(1.0)
+//                    .onAppear {
+//                        movementOfSaveSuccessfullyView()
+//                    }
+//                }
             }
             .navigationTitle("Your Lucky Numbers")
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
     
-    func movementOfSaveSuccessfullyView(){
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            withAnimation(.spring(response: 2.0, dampingFraction: 0.8)) {
-                isSaved = false
-            }
-        }
-    }
+//    func movementOfSaveSuccessfullyView(){
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+//            withAnimation(.spring(response: 2.0, dampingFraction: 0.8)) {
+//                isSaved = false
+//            }
+//        }
+//    }
 }
 
 struct YourOwnSixBalls_Previews: PreviewProvider {
