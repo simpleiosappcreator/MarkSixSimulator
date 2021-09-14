@@ -43,7 +43,7 @@ struct CollectionView: View {
                     }else{
                         List{
                             ForEach(tempVM.permanentFavouriteLuckyNumbers) { models in
-                                HStack(spacing: 15){
+                                HStack{
                                     ForEach(models.numbers, id: \.self) { number in
                                         CreateBallsView(ballColor: models.generationMethod == "By generation" ? Color.purple : Color.pink, number: number)
                                     }
