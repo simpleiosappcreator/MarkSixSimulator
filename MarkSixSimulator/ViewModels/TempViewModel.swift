@@ -15,7 +15,7 @@ class TempViewModel: ObservableObject{
     @Published var sixNumbersModel: [NumberModel] = []
     @Published var permanentFavouriteLuckyNumbers: [NumberModel] = []{
         didSet{
-            save()
+            savePermanentFavouriteLuckyNumbers()
         }
     }
     @Published var mainPageLuckyNumbers: NumberModel = NumberModel(numbers: [], isFavourite: false, generationMethod: "By generator")
@@ -24,10 +24,15 @@ class TempViewModel: ObservableObject{
     
     @Published var userLuckyNumbers: NumberModel = NumberModel(numbers: [], isFavourite: false, generationMethod: "By user")
     
-    @Published var amountOfLuckyNumbers: Int = 0
+    @Published var amountOfLuckyNumbers: Int = 0{
+        didSet{
+            saveAmountOfLuckyNumbers()
+        }
+    }
     
     var cancellable = Set<AnyCancellable>()
-    let key: String = "favourite Numbers Key"
+    let key1: String = "favourite numbers key"
+    let key2: String = "amount of lucky numbers key"
     
     init(){
         createMainPageLuckyNumbers()
@@ -35,21 +40,24 @@ class TempViewModel: ObservableObject{
     }
     
     func getData(){
-        guard let data = UserDefaults.standard.data(forKey: key),
-              let decodedData = try? JSONDecoder().decode([NumberModel].self, from: data) else{return}
-        self.permanentFavouriteLuckyNumbers = decodedData
+        guard let data1 = UserDefaults.standard.data(forKey: key1),
+              let decodedData1 = try? JSONDecoder().decode([NumberModel].self, from: data1) else{return}
+        self.permanentFavouriteLuckyNumbers = decodedData1
         
-        guard let data = UserDefaults.standard.data(forKey: key),
-              let decodedData = try? JSONDecoder().decode(Int.self, from: data) else{return}
-        self.amountOfLuckyNumbers = decodedData
+        guard let data2 = UserDefaults.standard.data(forKey: key2),
+              let decodedData2 = try? JSONDecoder().decode(Int.self, from: data2) else{return}
+        self.amountOfLuckyNumbers = decodedData2
     }
     
-    func save(){
+    func savePermanentFavouriteLuckyNumbers(){
         if let encodedData = try? JSONEncoder().encode(permanentFavouriteLuckyNumbers){
-            UserDefaults.standard.set(encodedData, forKey: key)
+            UserDefaults.standard.set(encodedData, forKey: key1)
         }
+    }
+    
+    func saveAmountOfLuckyNumbers(){
         if let encodedData = try? JSONEncoder().encode(amountOfLuckyNumbers){
-            UserDefaults.standard.set(encodedData, forKey: key)
+            UserDefaults.standard.set(encodedData, forKey: key2)
         }
     }
     
